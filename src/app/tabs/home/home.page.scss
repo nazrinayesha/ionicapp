@@ -1,0 +1,59 @@
+.user_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+ion-label {
+    display: block;
+    color: black;
+}
+
+.first_div {
+   
+    .username {
+        font-weight: 600;
+    }
+}
+
+ion-button {
+    text-transform: capitalize;
+    --background: #28bb50;
+    padding-top: 80%;
+    padding-bottom: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ion-grid {
+    padding: 0px;
+}
+
+.content_div {
+    background: white;
+    width: 100%;
+}
+.col_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.col_div:hover {
+    background-color: lightgreen;
+}
+
+img {
+    width: 70px;
+    mix-blend-mode: multiply;
+}
+
+ion-label {
+    color:var(--ion-color-dark);
+    margin-top: 5px;
+    font-weight: bold;
+}

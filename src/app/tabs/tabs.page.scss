@@ -1,0 +1,12 @@
+ion-tab-bar {
+    --background: var(--ion-color-dafault);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    ion-tab-button {
+        --color: var(--ion-color-dark);
+        --color-selected: var(--ion-color-success);
+        ion-icon {
+            font-size: 1.3rem;
+        }
+    }
+}
